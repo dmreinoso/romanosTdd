@@ -43,5 +43,21 @@ class roman {
         $romanNumber .= $this->convertDigit($arabicNumberToConvert % 10, "I", "V", "X");
         return $romanNumber;
     }
+    
+    public function foo($param) {
+        $var = 0;
+    }
+    
+    public function foo2($param) {
+        $var = 0;
+    }
+    
+    public function foo3($param) {
+        $var = 0;
+    }
+    
+    public function foo4($param) {
+        $var = 0;
+    }
 
 }
