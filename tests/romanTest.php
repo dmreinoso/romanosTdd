@@ -134,7 +134,7 @@ class romanTest extends PHPUnit_Framework_TestCase {
     }
     
     public function testTest43() {
-        $this->assertEquals("Ms", $this->object->convertToRoman(1000));
+        $this->assertEquals("M", $this->object->convertToRoman(1000));
         $this->assertEquals("MI", $this->object->convertToRoman(1001));
         $this->assertEquals("MII", $this->object->convertToRoman(1002));
     }
